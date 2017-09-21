@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Game Tracker!</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- TITLE --> 
+      <div class="row">
+        <div class="col-sm-12 title">
+          <h1>Game Tracker!</h1>
+        </div>
+      </div>
+
+      <!-- SET SCORE -->
+      <div class="jumbotron">
+        <h2 id="set-score-title">What Are We Playing To?</h2>
+        <input class="form-control" id="playing-to-field">
+        <div class="row">
+          <div class="col-sm-12" id="score-set">
+            <button class="btn btn-success btn-large" id="score-set-button">Set!</button>
+            <button class="btn btn-danger btn-large" id="reset-button">Reset Game</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PLAYER SCORES! -->
+      <div class="row">
+        <div class="col-sm-6 title">
+          <div class="jumbotron">
+            <h2>Player 1</h2>
+            <h1 id="p1-score">0</h1>
+            <button class="btn btn-primary btn-large" id="add-p1-point">Add Point</button>
+          </div>
+        </div>
+
+        <div class="col-sm-6 title">
+          <div class="jumbotron">
+            <h2>Player 2</h2>
+            <h1 id="p2-score">0</h1>
+            <button class="btn btn-primary btn-large" id="add-p2-point">Add Point</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js">
+        
+      </script>
+  </body>
+</html>
