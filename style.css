@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+}
+
+body {
+    background-image: url("http://i.imgur.com/ZFPOfZS.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#score-set {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1.won {
+  color: green;
+}
